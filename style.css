@@ -1,0 +1,90 @@
+/* common styles */
+
+body{
+    font-family: 'poppins', sans-serif;
+    background-color: #F3F1FF;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
+}
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+
+}
+
+/* top players style */
+
+.top-players{
+    margin-bottom: 30px;
+}
+.section-title{
+    color:  #562EFF;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.players {
+    font-weight: 500;    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player-name {
+    margin: 0 18px ;
+    font-weight: 500;
+    font-size: 18px;
+}
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+/* top blog styles */
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+}
+.blog{
+    display: flex;
+}
+.blog .thumbnail img {
+    height:117px ;
+    width: 177px;
+}
+.blog-info{
+    margin-left: 16px ;
+}
+.blog-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.blog-author{
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+}
+
+
+/* Courses Style */
+
+.course .course-banner img{
+    height: 104px;
+    width: 224px;
+}
